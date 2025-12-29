@@ -1,0 +1,10 @@
+{
+  "version": "0.1.4",
+  "releaseDate": "2025-12-29",
+  "downloadPage": "https://github.com/JeremiasMeister/succession-releases/releases/latest",
+  "releaseNotes": "Initial release manifest. Visit GitHub Releases for installers.",
+  "assets": {
+    "windows": "",
+    "linux": ""
+  }
+}
