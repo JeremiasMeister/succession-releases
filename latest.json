@@ -4,7 +4,7 @@
   "downloadPage": "https://github.com/JeremiasMeister/succession-releases/releases/latest",
   "releaseNotes": "Release v0.1.9",
   "assets": {
-    "windows": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.1.9/Project-Succession_0.1.9_x64_en-US.msi",
-    "linux": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.1.9/project-succession_0.1.9_amd64.AppImage"
+    "windows": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.1.9/Project.Succession_0.1.9_x64_en-US.msi",
+    "linux": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.1.9/Project.Succession_0.1.9_amd64.AppImage"
   }
 }
