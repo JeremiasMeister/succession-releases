@@ -1,10 +1,10 @@
 {
-  "version": "0.1.9",
-  "releaseDate": "2025-12-30",
-  "downloadPage": "https://github.com/JeremiasMeister/succession-releases/releases/latest",
-  "releaseNotes": "Release v0.1.9",
+  "version": "0.1.11",
+  "releaseDate": "2025-12-31",
+  "downloadPage": "https://www.cg-jm.com/project-succession-download",
+  "releaseNotes": "Release v0.1.11",
   "assets": {
-    "windows": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.1.9/Project.Succession_0.1.9_x64_en-US.msi",
-    "linux": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.1.9/Project.Succession_0.1.9_amd64.AppImage"
+    "windows": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.1.11/Project.Succession_0.1.11_x64_en-US.msi",
+    "linux": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.1.11/Project.Succession_0.1.11_amd64.AppImage"
   }
 }
