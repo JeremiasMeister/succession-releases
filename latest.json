@@ -1,10 +1,10 @@
 {
-  "version": "0.1.11",
-  "releaseDate": "2025-12-31",
+  "version": "0.1.13",
+  "releaseDate": "2026-01-12",
   "downloadPage": "https://www.cg-jm.com/project-succession-download",
-  "releaseNotes": "Release v0.1.11",
+  "releaseNotes": "Release v0.1.13\n\nBug Fixes:\n- Fixed tauri-plugin-dialog version mismatch between NPM and Rust crates (synced to v2.5.0)\n- Improved GitHub Actions permissions for admin tools release workflow",
   "assets": {
-    "windows": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.1.11/Project.Succession_0.1.11_x64_en-US.msi",
-    "linux": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.1.11/Project.Succession_0.1.11_amd64.AppImage"
+    "windows": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.1.13/Project.Succession_0.1.13_x64_en-US.msi",
+    "linux": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.1.13/Project.Succession_0.1.13_amd64.AppImage"
   }
 }
