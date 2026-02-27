@@ -1,12 +1,12 @@
 {
-  "version": "0.1.17",
-  "releaseDate": "2026-02-24",
+  "version": "0.1.18",
+  "releaseDate": "2026-02-27",
   "downloadPage": "https://www.cg-jm.com/project-succession-download",
-  "releaseNotes": "Release v0.1.17\n\nNew Features:\n- Add PostgreSQL Query, Execute, RawExecute actions (PS-90)\n- Add MySQL Query, Execute, RawExecute actions (PS-90)\n- Add MongoDB Find, Write, Aggregate actions (PS-90)\n- Add Supabase Query, Execute actions (PS-90)\n- Add S3 Upload, Download, Delete, List actions (PS-91)\n- Add GCS Upload, Download, Delete, List actions (PS-91)\n- Add Azure Blob Upload, Download, Delete, List actions (PS-91)\n- Add retry config UI to right sidebar with license gating\n\nBug Fixes:\n- Fix MySQL TLS — add require_tls to prevent plaintext connections (PS-90)\n- Cap retry_delay_ms to prevent indefinite workflow hang\n- Surface retry config save errors in frontend\n- Validate retry_backoff_multiplier >= 1.0\n- Fix 24 failing tests in succession_actions crate (PS-67)\n\nImprovements:\n- Added icons for new action nodes\n- Match retry locked state to premium gold star visual identity",
+  "releaseNotes": "Release v0.1.18\n\nNew Features:\n- Add body_mode to WebhookTrigger supporting JSON, text, and multipart body parsing\n- Add Parse CSV node\n\nBug Fixes:\n- Fix: skip unnamed multipart fields, warn on duplicate field names\n- Fix CSV parser\n\nImprovements:\n- Additional tools\n- Proper file saving",
   "assets": {
-    "windows": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.1.17/Project.Succession_0.1.17_x64_en-US.msi",
-    "linux": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.1.17/Project.Succession_0.1.17_amd64.AppImage",
-    "macos_arm": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.1.17/Project.Succession_0.1.17_aarch64.dmg",
-    "macos_intel": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.1.17/Project.Succession_0.1.17_x64.dmg"
+    "windows": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.1.18/Project.Succession_0.1.18_x64_en-US.msi",
+    "linux": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.1.18/Project.Succession_0.1.18_amd64.AppImage",
+    "macos_arm": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.1.18/Project.Succession_0.1.18_aarch64.dmg",
+    "macos_intel": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.1.18/Project.Succession_0.1.18_x64.dmg"
   }
 }
