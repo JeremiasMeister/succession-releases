@@ -1,12 +1,12 @@
 {
-  "version": "0.1.18",
-  "releaseDate": "2026-02-27",
+  "version": "0.1.19",
+  "releaseDate": "2026-03-03",
   "downloadPage": "https://www.cg-jm.com/project-succession-download",
-  "releaseNotes": "Release v0.1.18\n\nNew Features:\n- Add body_mode to WebhookTrigger supporting JSON, text, and multipart body parsing\n- Add Parse CSV node\n\nBug Fixes:\n- Fix: skip unnamed multipart fields, warn on duplicate field names\n- Fix CSV parser\n\nImprovements:\n- Additional tools\n- Proper file saving",
+  "releaseNotes": "Release v0.1.19\n\nNew Features:\n- Redesign enterprise add-user flow via Paddle checkout (PS-85)\n- Add Manage Subscription button for enterprise users\n- Add customer portal link support for enterprise users\n- Add AdminDataContext for shared cached state in enterprise admin\n\nBug Fixes:\n- Fix atomic session handling and sandbox UX improvements (PS-85)\n- Handle checkout_pending users in removeEnterpriseUser\n- Guard against missing orgId in createEnterpriseUserCheckoutSession\n- Fix typo in checkout session URL\n- Make paddle_subscription_id optional in EnterpriseUser\n\nImprovements:\n- Improve keyring error logging — missing secret keys and failed API token generation now surface as actionable error messages in the console",
   "assets": {
-    "windows": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.1.18/Project.Succession_0.1.18_x64_en-US.msi",
-    "linux": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.1.18/Project.Succession_0.1.18_amd64.AppImage",
-    "macos_arm": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.1.18/Project.Succession_0.1.18_aarch64.dmg",
-    "macos_intel": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.1.18/Project.Succession_0.1.18_x64.dmg"
+    "windows": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.1.19/Project.Succession_0.1.19_x64_en-US.msi",
+    "linux": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.1.19/Project.Succession_0.1.19_amd64.AppImage",
+    "macos_arm": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.1.19/Project.Succession_0.1.19_aarch64.dmg",
+    "macos_intel": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.1.19/Project.Succession_0.1.19_x64.dmg"
   }
 }
