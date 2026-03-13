@@ -1,12 +1,12 @@
 {
-  "version": "0.1.20",
-  "releaseDate": "2026-03-10",
+  "version": "0.1.21",
+  "releaseDate": "2026-03-13",
   "downloadPage": "https://www.cg-jm.com/project-succession-download",
-  "releaseNotes": "Release v0.1.20\n\nNew Features:\n- Synchronous webhook response mode with WebhookRespondAction node (#49)\n- Parameter scripting with @alias.param expression language (PS-94)\n\nImprovements:\n- WebhookRespondAction: response body via parameter — supports JSON, plain text, and binary/file objects; no longer requires a separate input port\n- Webhook security hardening: configurable body size limit, max concurrent requests, and max open sync responses per node",
+  "releaseNotes": "Release v0.1.21\n\nNew Features:\n- Solution container, symbol index, and IDE features (PS-95)\n- Cross-subgraph node indexing and navigation (PS-98)\n- Console-to-graph navigation (PS-97)\n- Graph search and navigation (Cmd+F) (PS-96)\n\nBug Fixes:\n- Fix activeIndex reset, redundant close, trailing newline",
   "assets": {
-    "windows": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.1.20/Project.Succession_0.1.20_x64_en-US.msi",
-    "linux": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.1.20/Project.Succession_0.1.20_amd64.AppImage",
-    "macos_arm": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.1.20/Project.Succession_0.1.20_aarch64.dmg",
-    "macos_intel": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.1.20/Project.Succession_0.1.20_x64.dmg"
+    "windows": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.1.21/Project.Succession_0.1.21_x64_en-US.msi",
+    "linux": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.1.21/Project.Succession_0.1.21_amd64.AppImage",
+    "macos_arm": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.1.21/Project.Succession_0.1.21_aarch64.dmg",
+    "macos_intel": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.1.21/Project.Succession_0.1.21_x64.dmg"
   }
 }
