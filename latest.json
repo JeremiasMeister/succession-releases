@@ -1,12 +1,12 @@
 {
-  "version": "0.3.0",
-  "releaseDate": "2026-04-23",
-  "downloadPage": "https://github.com/JeremiasMeister/succession-releases/releases/tag/v0.3.0",
-  "releaseNotes": "Release v0.3.0\n\nNew Features:\n- Add @input expression namespace for parameter scripting (PS-123)\n- Add Create Directory node\n- Free tier: synthesize Free license when no active subscription, add 'free' to licenseType\n- Add plan badge and upgrade button in header for free-tier users\n- Add BuyLicenseButton for free users in license modal\n- Reframe purchase page as upgrade upsell with plan comparison\n- Gold shimmer styling on upgrade button (header + license modal)\n- Add tutorial start\n\nBug Fixes:\n- Fix bug where free users would incorrectly see upgrade panel\n- Fix UpdateNotification missing from upgrade overlay\n- Fix auth: align plan checks, fall back to free license on IPC error\n\nImprovements:\n- Simplify purchase page layout (upgrade area + free area, no plan cards)\n- Remove delete account modal\n- Various flow and layout fixes",
+  "version": "0.3.1",
+  "releaseDate": "2026-04-26",
+  "downloadPage": "https://github.com/JeremiasMeister/succession-releases/releases/tag/v0.3.1",
+  "releaseNotes": "Release v0.3.1\n\nNew Features:\n- Add Advanced Git Operations node\n- Automate Unity, Blender, Maya plugin zip generation\n- Block self-connections and execution cycles at connect time\n- Expose API token as masked password field in Unity Project Settings\n- Expose API token field in Houdini settings UI\n- Add ExecutionTreeContext for cross-tree validation\n- Add useExecutionTrees hook for trigger tree membership\n\nBug Fixes:\n- Fix git nodes to use global git config for author and auth\n- Block cross-tree data/parameter connections (PS-126)\n- Warn on cross-tree parameter expression references\n- Block cross-tree execution connections with toast\n- Fix new file handling (no filepath for new files)\n\n--- From v0.3.0 ---\n\nNew Features:\n- Add @input expression namespace for parameter scripting (PS-123)\n- Add Create Directory node\n- Free tier: synthesize Free license when no active subscription, add 'free' to licenseType\n- Add plan badge and upgrade button in header for free-tier users\n- Add BuyLicenseButton for free users in license modal\n- Reframe purchase page as upgrade upsell with plan comparison\n- Gold shimmer styling on upgrade button (header + license modal)\n- Add tutorial start\n\nBug Fixes:\n- Fix bug where free users would incorrectly see upgrade panel\n- Fix UpdateNotification missing from upgrade overlay\n- Fix auth: align plan checks, fall back to free license on IPC error\n\nImprovements:\n- Simplify purchase page layout (upgrade area + free area, no plan cards)\n- Remove delete account modal\n- Various flow and layout fixes",
   "assets": {
-    "windows": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.3.0/Project.Succession_0.3.0_x64_en-US.msi",
-    "linux": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.3.0/Project.Succession_0.3.0_amd64.deb",
-    "macos_arm": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.3.0/Project.Succession_0.3.0_aarch64.dmg",
-    "macos_intel": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.3.0/Project.Succession_0.3.0_x64.dmg"
+    "windows": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.3.1/Project.Succession_0.3.1_x64_en-US.msi",
+    "linux": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.3.1/Project.Succession_0.3.1_amd64.deb",
+    "macos_arm": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.3.1/Project.Succession_0.3.1_aarch64.dmg",
+    "macos_intel": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.3.1/Project.Succession_0.3.1_x64.dmg"
   }
 }
