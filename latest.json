@@ -1,12 +1,12 @@
 {
-  "version": "0.4.0",
-  "releaseDate": "2026-04-27",
-  "downloadPage": "https://github.com/JeremiasMeister/succession-releases/releases/tag/v0.4.0",
-  "releaseNotes": "Release v0.4.0\n\nNew Features:\n- Add Time Math node (TimeMathAction) — date/time arithmetic operations\n\nBug Fixes:\n- Pass raw input_data to SubgraphInputAction fake trigger (#67)\n- Only populate output_data for firing outputs in TimeMathAction\n- Fix parameter expression evaluation with data-connected params",
+  "version": "0.5.0",
+  "releaseDate": "2026-04-30",
+  "downloadPage": "https://github.com/JeremiasMeister/succession-releases/releases/tag/v0.5.0",
+  "releaseNotes": "Release v0.5.0\n\nNew Features:\n- Add RasterizeSvgAction — rasterize SVG to any image format\n\nImprovements:\n- Fix double Rust compilation in release CI",
   "assets": {
-    "windows": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.4.0/Project.Succession_0.4.0_x64_en-US.msi",
-    "linux": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.4.0/Project.Succession_0.4.0_amd64.deb",
-    "macos_arm": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.4.0/Project.Succession_0.4.0_aarch64.dmg",
-    "macos_intel": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.4.0/Project.Succession_0.4.0_x64.dmg"
+    "windows": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.5.0/Project.Succession_0.5.0_x64_en-US.msi",
+    "linux": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.5.0/Project.Succession_0.5.0_amd64.deb",
+    "macos_arm": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.5.0/Project.Succession_0.5.0_aarch64.dmg",
+    "macos_intel": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.5.0/Project.Succession_0.5.0_x64.dmg"
   }
 }
