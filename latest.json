@@ -1,12 +1,12 @@
 {
-  "version": "0.5.0",
-  "releaseDate": "2026-04-30",
-  "downloadPage": "https://github.com/JeremiasMeister/succession-releases/releases/tag/v0.5.0",
-  "releaseNotes": "Release v0.5.0\n\nNew Features:\n- Add RasterizeSvgAction — rasterize SVG to any image format\n\nImprovements:\n- Fix double Rust compilation in release CI",
+  "version": "0.6.0",
+  "releaseDate": "2026-05-12",
+  "downloadPage": "https://github.com/JeremiasMeister/succession-releases/releases/tag/v0.6.0",
+  "releaseNotes": "Release v0.6.0\n\nNew Features:\n- Integrated terminal panel with xterm.js, PTY backend, multi-tab support, and collapsible UI\n- IDE file tree and Monaco text editor (#71)\n\nBug Fixes:\n- Fix output edge offset for nodes with exposed parameters (PS-124, #73)\n- Fix poisoned-mutex handling, root-path edge case, and tab counter reset\n- Fix terminal output listener attached before backend shell spawn\n- Fix bug reporting, console bugs, and terminal bugs\n\nImprovements:\n- Unified scrollbar appearance across terminal, file editor, and right sidebar\n- Proper shortcut routing for the IDE work area\n- Redesigned update notification banner and modal",
   "assets": {
-    "windows": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.5.0/Project.Succession_0.5.0_x64_en-US.msi",
-    "linux": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.5.0/Project.Succession_0.5.0_amd64.deb",
-    "macos_arm": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.5.0/Project.Succession_0.5.0_aarch64.dmg",
-    "macos_intel": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.5.0/Project.Succession_0.5.0_x64.dmg"
+    "windows": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.6.0/Project.Succession_0.6.0_x64_en-US.msi",
+    "linux": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.6.0/Project.Succession_0.6.0_amd64.deb",
+    "macos_arm": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.6.0/Project.Succession_0.6.0_aarch64.dmg",
+    "macos_intel": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.6.0/Project.Succession_0.6.0_x64.dmg"
   }
 }
