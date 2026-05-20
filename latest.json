@@ -1,12 +1,12 @@
 {
-  "version": "0.6.0",
-  "releaseDate": "2026-05-12",
-  "downloadPage": "https://github.com/JeremiasMeister/succession-releases/releases/tag/v0.6.0",
-  "releaseNotes": "Release v0.6.0\n\nNew Features:\n- Integrated terminal panel with xterm.js, PTY backend, multi-tab support, and collapsible UI\n- IDE file tree and Monaco text editor (#71)\n\nBug Fixes:\n- Fix output edge offset for nodes with exposed parameters (PS-124, #73)\n- Fix poisoned-mutex handling, root-path edge case, and tab counter reset\n- Fix terminal output listener attached before backend shell spawn\n- Fix bug reporting, console bugs, and terminal bugs\n\nImprovements:\n- Unified scrollbar appearance across terminal, file editor, and right sidebar\n- Proper shortcut routing for the IDE work area\n- Redesigned update notification banner and modal",
+  "version": "0.7.0",
+  "releaseDate": "2026-05-20",
+  "downloadPage": "https://github.com/JeremiasMeister/succession-releases/releases/tag/v0.7.0",
+  "releaseNotes": "Release v0.7.0\n\nNew Features:\n- Custom Python Nodes: load Python-defined nodes from a configurable directory with hot-reload, \"Install from Git\" dialog, palette integration with a Custom badge, and a Settings panel section with Python interpreter detection (PS-122)\n- Refresh Nodes button in Custom Python Nodes settings (PS-122)\n\nBug Fixes:\n- Fix settings modal\n\nImprovements:\n- Bump geo dependency\n- Regenerated HTML node documentation including the custom Python nodes user guide (PS-122)",
   "assets": {
-    "windows": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.6.0/Project.Succession_0.6.0_x64_en-US.msi",
-    "linux": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.6.0/Project.Succession_0.6.0_amd64.deb",
-    "macos_arm": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.6.0/Project.Succession_0.6.0_aarch64.dmg",
-    "macos_intel": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.6.0/Project.Succession_0.6.0_x64.dmg"
+    "windows": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.7.0/Project.Succession_0.7.0_x64_en-US.msi",
+    "linux": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.7.0/Project.Succession_0.7.0_amd64.deb",
+    "macos_arm": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.7.0/Project.Succession_0.7.0_aarch64.dmg",
+    "macos_intel": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.7.0/Project.Succession_0.7.0_x64.dmg"
   }
 }
