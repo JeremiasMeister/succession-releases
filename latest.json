@@ -1,12 +1,12 @@
 {
-  "version": "0.7.1",
-  "releaseDate": "2026-06-03",
-  "downloadPage": "https://github.com/JeremiasMeister/succession-releases/releases/tag/v0.7.1",
-  "releaseNotes": "Release v0.7.1\n\nImprovements:\n- Redesign docs to match Project Succession app style (PS-136)\n- Make the whole node-card a click target in docs (PS-136)\n- Style Custom Python Nodes toggle to match other checkboxes (PS-137)\n\nBug Fixes:\n- Evaluate parameterExpressions on triggers at configure-time (PS-130)\n- Guard backend launch against re-fire on license refresh (PS-135)\n- Launch backend on free tier, not just active paid licenses (PS-135)\n- Force per-machine Windows install, drop dead service WiX (PS-135)\n- Robust sidecar and docs path resolution (PS-135)\n- Add Linux .deb candidates for documentation path (PS-135)\n- Markdown parser handles indented fences and code-block pipes (PS-136)\n- Shield code blocks from downstream regex passes (PS-136)\n- Tighten selection-panel max-width to clear Execute button (PS-138)\n- Prevent WorkArea panel overlap on small screens (PS-138)\n- Custom Python nodes no longer receive packed wrapper on data connections",
+  "version": "0.8.0",
+  "releaseDate": "2026-06-12",
+  "downloadPage": "https://github.com/JeremiasMeister/succession-releases/releases/tag/v0.8.0",
+  "releaseNotes": "Release v0.8.0\n\nNew Features:\n- In-app AI Assistant — BYOK chat panel with streaming, tool cards with tiered approvals, ghost-overlay edit previews, per-graph history, and Studio-plan license gating (PS-134)\n- MCP server foundation — 35 tools over Streamable HTTP plus a stdio bridge sidecar for Claude Desktop / Cursor / ChatGPT (PS-132)\n- MCP write & deploy tools — create/edit graphs and nodes, deploy, fire triggers (PS-133)\n- MCP subgraph & loop tools (PS-140)\n- MCP custom Python node tools (PS-141)\n- MCP cross-graph search & solution-awareness tools (PS-142)\n- MCP UI channel — live editor state, refresh_graph, get_selected_nodes, get_active_graph, get_open_tabs (PS-142)\n- Filesystem Access controls — path-policy gating across file, archive, cloud, script, image, mesh, parser, and git actions; first-launch prompt and Settings panel to manage allowed paths (PS-139)\n- AI Provider settings — provider presets, vault keys, model picker, validation (PS-134)\n- Sticky search filter in Settings (PS-139)\n\nImprovements:\n- Unified settings save path; dropped per-section filesystem commands (PS-139)\n- Embed nodes.generated.json; harden add_node / custom-node paths (PS-132)\n- User-facing MCP integration PDF covering all 35 tools (PS-132)",
   "assets": {
-    "windows": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.7.1/Project.Succession_0.7.1_x64_en-US.msi",
-    "linux": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.7.1/Project.Succession_0.7.1_amd64.deb",
-    "macos_arm": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.7.1/Project.Succession_0.7.1_aarch64.dmg",
-    "macos_intel": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.7.1/Project.Succession_0.7.1_x64.dmg"
+    "windows": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.8.0/Project.Succession_0.8.0_x64_en-US.msi",
+    "linux": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.8.0/Project.Succession_0.8.0_amd64.deb",
+    "macos_arm": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.8.0/Project.Succession_0.8.0_aarch64.dmg",
+    "macos_intel": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.8.0/Project.Succession_0.8.0_x64.dmg"
   }
 }
