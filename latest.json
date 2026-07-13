@@ -1,16 +1,12 @@
 {
-  "version": "0.9.0",
-  "releaseDate": "2026-07-04",
-  "downloadPage": "https://github.com/JeremiasMeister/succession-releases/releases/tag/v0.9.0",
-  "releaseNotes": "Release v0.9.0\n\nNew Features:\n- Parallel Dispatcher node: concurrent subgraph execution with input-order results, max_parallel cap, retry semantics, and aggregate_by_key (PS-146)\n- License Tokens for CI and headless use: create/list/revoke from the Licensing modal, SUCCESSION_LICENSE_TOKEN validation path\n- Headless Docker runner image with sidecar mode, one-shot completion detection, and SUCCESSION_OUTPUT_FILE; published as succession-runner.tar.gz release asset\n- Execution history: engine tracks live per-node execution state; new CLI last-execution command and MCP get_last_execution_data returns real per-node data (PS-154)\n- CLI --json flag for health-check\n- SUCCESSION_SECRET_* environment variables merged into the secrets map\n\nBug Fixes:\n- Email verification is sent on registration and reliably advances past the verify screen\n- Parallel Dispatcher: always-firing Succeeded/Failed outputs (PS-146)\n- List Operations: pop/popFront output wrapped in standard packed envelope; list operation parse fix\n- Interactive login stays primary; license token is used only as fallback\n- Docker one-shot completion detection hardened: requires trigger to fire, latch reads the execution record (PS-154)\n- Skip tray icon on display-less Linux instead of aborting\n- Assistant tab fails closed while license check is pending\n\nImprovements:\n- Security hardening: five audit findings closed (fs path policy, admin delete gate, redaction), license token endpoints hardened, secrets redacted in execution records, token cache bound to signed token identity\n- Licensing modal restyled with settings-style sections; premium locks on License Tokens section and Assistant tab\n- Stacked dashboard card header for long graph names",
+  "version": "0.10.0",
+  "releaseDate": "2026-07-13",
+  "downloadPage": "https://github.com/JeremiasMeister/succession-releases/releases/tag/v0.10.0",
+  "releaseNotes": "Release v0.10.0\n\nNew Features:\n- Preset shelf (PS-162)\n- Live thinking and tool status feedback in the AI assistant (PS-145)\n- Stream model reasoning as thinking deltas, with live reasoning tail in the assistant status line\n- Password reset and change password (PS-167, PS-168)\n\nBug Fixes:\n- Surface trigger start failures instead of logging silently (PS-161)\n- Surface dead triggers on list/MCP surfaces and in Docker sidecar mode\n- Execution state hardening (PS-159)\n- AI assistant stability fixes: splitter scope, status restore, robust 400-retry, redacted blocks\n\nImprovements:\n- Themed scrollbar for the assistant reasoning pane",
   "assets": {
-    "windows": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.9.0/Project.Succession_0.9.0_x64_en-US.msi",
-    "linux": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.9.0/Project.Succession_0.9.0_amd64.deb",
-    "macos_arm": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.9.0/Project.Succession_0.9.0_aarch64.dmg",
-    "macos_intel": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.9.0/Project.Succession_0.9.0_x64.dmg",
-    "docker_runner": {
-      "url": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.9.0/succession-runner.tar.gz",
-      "arch": "amd64"
-    }
+    "windows": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.10.0/Project.Succession_0.10.0_x64_en-US.msi",
+    "linux": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.10.0/Project.Succession_0.10.0_amd64.deb",
+    "macos_arm": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.10.0/Project.Succession_0.10.0_aarch64.dmg",
+    "macos_intel": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.10.0/Project.Succession_0.10.0_x64.dmg", "docker_runner": {"url": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.10.0/succession-runner.tar.gz", "arch": "amd64"}
   }
 }
