@@ -1,12 +1,12 @@
 {
-  "version": "0.10.0",
-  "releaseDate": "2026-07-13",
-  "downloadPage": "https://github.com/JeremiasMeister/succession-releases/releases/tag/v0.10.0",
-  "releaseNotes": "Release v0.10.0\n\nNew Features:\n- Preset shelf (PS-162)\n- Live thinking and tool status feedback in the AI assistant (PS-145)\n- Stream model reasoning as thinking deltas, with live reasoning tail in the assistant status line\n- Password reset and change password (PS-167, PS-168)\n\nBug Fixes:\n- Surface trigger start failures instead of logging silently (PS-161)\n- Surface dead triggers on list/MCP surfaces and in Docker sidecar mode\n- Execution state hardening (PS-159)\n- AI assistant stability fixes: splitter scope, status restore, robust 400-retry, redacted blocks\n\nImprovements:\n- Themed scrollbar for the assistant reasoning pane",
+  "version": "0.11.0",
+  "releaseDate": "2026-07-21",
+  "downloadPage": "https://github.com/JeremiasMeister/succession-releases/releases/tag/v0.11.0",
+  "releaseNotes": "Release v0.11.0\n\nNew Features:\n- Godot 4 integration (PS-126): editor bridge plugin with a Succession bottom panel, live-apply settings, test connection, command server status reporting, and 16 triggers + 15 actions covering scenes, assets, project settings, GDScript execution, and headless export\n- Throttle Event action (PS-177): new Flow Control node that rate-limits events on a graph path - Drop mode discards excess events, Queue mode trickles bursts through at the configured rate without loss\n- Photoshop Execute (batchPlay) and Play Action nodes (PS-170)\n- New DCC integrations now appear automatically in existing settings files instead of only in fresh installs\n\nBug Fixes:\n- Export Photoshop Document reported success even when the save failed on the Photoshop side (missing folder, save error); it now waits for the plugin response and gains a timeout parameter and On Error output (PS-176)\n- List Operations \"create\" ignored the Value parameter and only wrapped whatever arrived on the Execute input; it now builds the list from Value (JSON arrays parsed, scalars wrapped) with input as fallback (PS-175)\n- File pickers on macOS grayed out every file (behaving like a folder browser) because a wildcard extension filter was passed literally; affected five nodes (PS-173)\n- Parameters connected to a data wire rendered the \"Connected\" sentinel as a number value or a checked checkbox; checkboxes also now accept the same truthy values (1, \"yes\", \"true\") the backend accepts (PS-26)\n- Filesystem access gating no longer rejects plain values that aren't paths at all (comparison strings, exit codes) - real paths outside the allowed roots are still denied",
   "assets": {
-    "windows": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.10.0/Project.Succession_0.10.0_x64_en-US.msi",
-    "linux": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.10.0/Project.Succession_0.10.0_amd64.deb",
-    "macos_arm": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.10.0/Project.Succession_0.10.0_aarch64.dmg",
-    "macos_intel": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.10.0/Project.Succession_0.10.0_x64.dmg", "docker_runner": {"url": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.10.0/succession-runner.tar.gz", "arch": "amd64"}
+    "windows": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.11.0/Project.Succession_0.11.0_x64_en-US.msi",
+    "linux": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.11.0/Project.Succession_0.11.0_amd64.deb",
+    "macos_arm": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.11.0/Project.Succession_0.11.0_aarch64.dmg",
+    "macos_intel": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.11.0/Project.Succession_0.11.0_x64.dmg", "docker_runner": {"url": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.11.0/succession-runner.tar.gz", "arch": "amd64"}
   }
 }
