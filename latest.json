@@ -1,12 +1,12 @@
 {
-  "version": "0.12.0",
-  "releaseDate": "2026-08-05",
-  "downloadPage": "https://github.com/JeremiasMeister/succession-releases/releases/tag/v0.12.0",
-  "releaseNotes": "Release v0.12.0\n\nNew Features:\n- MeshDifferenceAction node — voxel-volume and surface-distance mesh comparison (PS-185)\n\nSecurity & Hardening:\n- Supply-chain scanning, SBOM generation, dependency remediation (PS-180)\n- Webhook license owner resolved server-side, no longer trusts client custom_data (PS-182)\n- Rate limiting, webhook replay dedup, generic errors, security-event logging (PS-184)\n- Coordinated vulnerability disclosure policy + CRA triage process (PS-178)\n- Firebase hardening; XFF-safe rate limiting (rightmost X-Forwarded-For)\n- AI Act Art 50 transparency label on the AI Assistant panel\n- Dependency modernization: React 19, rmcp 3.1, ~24 dependency updates\n\nInfrastructure:\n- First-party downloads via Cloudflare R2 with automatic website manifest publish\n\nBug Fixes:\n- Bounds-check mesh indices before meshopt FFI\n\nDocs:\n- EU regulatory & security compliance audit; enterprise distribution corrections",
+  "version": "0.13.0",
+  "releaseDate": "2026-08-22",
+  "downloadPage": "https://github.com/JeremiasMeister/succession-releases/releases/tag/v0.13.0",
+  "releaseNotes": "Release v0.13.0\n\nNew Features:\n- Image Difference node + image preview in the IDE (#188)\n- Signed update manifests (Ed25519) with in-app verification (PS-179)\n\nBug Fixes:\n- Custom Python nodes now register reliably via a persistent custom_nodes_ws reconnect (#187)\n\nImprovements:\n- Command DataSource execution is now gated against the filesystem access policy (PS-181)",
   "assets": {
-    "windows": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.12.0/Project.Succession_0.12.0_x64_en-US.msi",
-    "linux": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.12.0/Project.Succession_0.12.0_amd64.deb",
-    "macos_arm": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.12.0/Project.Succession_0.12.0_aarch64.dmg",
-    "macos_intel": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.12.0/Project.Succession_0.12.0_x64.dmg", "docker_runner": {"url": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.12.0/succession-runner.tar.gz", "arch": "amd64"}
+    "windows": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.13.0/Project.Succession_0.13.0_x64_en-US.msi",
+    "linux": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.13.0/Project.Succession_0.13.0_amd64.deb",
+    "macos_arm": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.13.0/Project.Succession_0.13.0_aarch64.dmg",
+    "macos_intel": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.13.0/Project.Succession_0.13.0_x64.dmg", "docker_runner": {"url": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.13.0/succession-runner.tar.gz", "arch": "amd64"}
   }
 }
