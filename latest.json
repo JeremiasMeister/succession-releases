@@ -1,12 +1,12 @@
 {
-  "version": "0.13.0",
-  "releaseDate": "2026-08-22",
-  "downloadPage": "https://github.com/JeremiasMeister/succession-releases/releases/tag/v0.13.0",
-  "releaseNotes": "Release v0.13.0\n\nNew Features:\n- Image Difference node + image preview in the IDE (#188)\n- Signed update manifests (Ed25519) with in-app verification (PS-179)\n\nBug Fixes:\n- Custom Python nodes now register reliably via a persistent custom_nodes_ws reconnect (#187)\n\nImprovements:\n- Command DataSource execution is now gated against the filesystem access policy (PS-181)",
+  "version": "0.14.0",
+  "releaseDate": "2026-09-04",
+  "downloadPage": "https://github.com/JeremiasMeister/succession-releases/releases/tag/v0.14.0",
+  "releaseNotes": "Release v0.14.0\n\nNew Features:\n- Deploy Solutions - deploy all executable graphs of a solution at once (PS-201)\n- Text in Image node - draw anchored text onto images, with 0-1 opacity slider (PS-202)\n- Preview Image node - in-graph image thumbnails (PS-203)\n\nImprovements:\n- New Godot bridge\n\nBug Fixes:\n- Embed Common-Controls v6 manifest in the Windows backend executable (PS-196)",
   "assets": {
-    "windows": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.13.0/Project.Succession_0.13.0_x64_en-US.msi",
-    "linux": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.13.0/Project.Succession_0.13.0_amd64.deb",
-    "macos_arm": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.13.0/Project.Succession_0.13.0_aarch64.dmg",
-    "macos_intel": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.13.0/Project.Succession_0.13.0_x64.dmg", "docker_runner": {"url": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.13.0/succession-runner.tar.gz", "arch": "amd64"}
+    "windows": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.14.0/Project.Succession_0.14.0_x64_en-US.msi",
+    "linux": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.14.0/Project.Succession_0.14.0_amd64.deb",
+    "macos_arm": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.14.0/Project.Succession_0.14.0_aarch64.dmg",
+    "macos_intel": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.14.0/Project.Succession_0.14.0_x64.dmg", "docker_runner": {"url": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.14.0/succession-runner.tar.gz", "arch": "amd64"}
   }
 }
