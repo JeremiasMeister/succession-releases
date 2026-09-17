@@ -1,12 +1,12 @@
 {
-  "version": "0.14.1",
-  "releaseDate": "2026-09-11",
-  "downloadPage": "https://github.com/JeremiasMeister/succession-releases/releases/tag/v0.14.1",
-  "releaseNotes": "Release v0.14.1\n\nImprovements:\n- Removed non-distributable files from the installer bundle\n- User guide cleaned up for publication: decorative emoji removed from the plan\n  comparison tables, and cross-links between guides corrected\n- The full node reference is now published at cg-jm.com/docs - 220 actions,\n  58 triggers and 17 guides, browsable without downloading",
+  "version": "0.15.0",
+  "releaseDate": "2026-09-17",
+  "downloadPage": "https://github.com/JeremiasMeister/succession-releases/releases/tag/v0.15.0",
+  "releaseNotes": "Release v0.15.0\n\nNew Features:\n- Path root aliases: define named directories in Settings and reference them as @name/ in expression fields, so graphs move between machines without rewriting absolute paths (PS-215)\n- Built-in @lib path root, a Save to Path Root entry in the File menu, and Save to Library on mod+alt+s (PS-215)\n- Expression autocomplete completes the contents of a path root, one level at a time (PS-215)\n- Subgraph navigation and cross-graph search resolve path roots (PS-215)\n\nBug Fixes:\n- Toast notifications that were silently discarded are now shown (PS-216)\n- Exposed parameters load for a subgraph whose path is set by expression, and refresh when a path root is repointed (PS-217)\n- Autocomplete reports when a folder is too large to list instead of appearing complete; folders are listed before files (PS-218)\n- Expression autocomplete positions correctly on a panned or zoomed canvas\n- Settings save failures are surfaced instead of swallowed\n- Invalid path root names are rejected when settings are saved rather than at deploy time\n- Random Number no longer panics when min equals max on the Float path (PS-212)\n\nImprovements:\n- Workspace lints are enforced in every crate (PS-211)\n- macOS build signing\n- Consolidated dependency updates\n- Documentation corrections, emoji removed from UI strings, and accessibility improvements to the expression autocomplete",
   "assets": {
-    "windows": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.14.1/Project.Succession_0.14.1_x64_en-US.msi",
-    "linux": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.14.1/Project.Succession_0.14.1_amd64.deb",
-    "macos_arm": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.14.1/Project.Succession_0.14.1_aarch64.dmg",
-    "macos_intel": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.14.1/Project.Succession_0.14.1_x64.dmg", "docker_runner": {"url": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.14.1/succession-runner.tar.gz", "arch": "amd64"}
+    "windows": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.15.0/Project.Succession_0.15.0_x64_en-US.msi",
+    "linux": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.15.0/Project.Succession_0.15.0_amd64.deb",
+    "macos_arm": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.15.0/Project.Succession_0.15.0_aarch64.dmg",
+    "macos_intel": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.15.0/Project.Succession_0.15.0_x64.dmg", "docker_runner": {"url": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.15.0/succession-runner.tar.gz", "arch": "amd64"}
   }
 }
