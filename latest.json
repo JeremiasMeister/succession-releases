@@ -1,12 +1,12 @@
 {
-  "version": "0.17.0",
-  "releaseDate": "2026-09-24",
-  "downloadPage": "https://github.com/JeremiasMeister/succession-releases/releases/tag/v0.17.0",
-  "releaseNotes": "Release v0.17.0\n\nNew Features:\n- Provide Dictionary: Output Key-Value List toggle\n\nBug Fixes:\n- Send Email: correct TLS handling - STARTTLS on 587-style ports, implicit TLS on 465, true plaintext option with warning (PS-230)\n- Send Email: attachments are now actually attached instead of a placeholder string (PS-227)\n- Display parameters (node log / node image) no longer lose runtime updates in subgraphs, loops, and when switching tabs (PS-204)\n- File System Operations: directory-copy target handling, empty-input behavior, and a guard against moving a folder into itself (PS-199, PS-200)\n- Webhook rate limiter replenished 1 request per 200s instead of 200 requests/s (PS-210)\n\nImprovements:\n- Triggers and the UI no longer go silent after event bursts (broadcast channel lag recovery, all trigger types)\n- Dependency refresh (consolidated dependabot round; mail-send now uses the platform TLS trust store)\n\nAlso new since 0.15 (from 0.16.0, which was not distributed via the updater):\n- Provide Dictionary and Provide List nodes, for authoring structured values inline without a JSON Parser node (PS-221)\n- Multiline text parameters open in a full editor tab (PS-220)\n- List and dictionary entries written as JSON are emitted as that type; values arriving from a data connection keep the types their source gave them",
+  "version": "0.18.0",
+  "releaseDate": "2026-10-05",
+  "downloadPage": "https://github.com/JeremiasMeister/succession-releases/releases/tag/v0.18.0",
+  "releaseNotes": "Release v0.18.0\n\nNew Features:\n- Dictionary to Key-Value List node (PS-234)\n\nBug Fixes:\n- Write Script matches whole placeholder names in one pass (PS-236)\n- glTF reader handles only triangle-list primitives and no longer panics on malformed files; glTF writer keeps all UV sets, textures and MIME types; Mesh Optimize keeps normals, UVs and materials with the geometry (PS-188)\n- Exposed subgraph parameters no longer disable when a data connection is attached (PS-197)\n\nImprovements:\n- Guide: custom Python nodes continue on an error branch with status success (PS-237)\n- Dependency updates (tauri 2.12, notify 8, quick-xml 0.42, glam 0.33, md5 0.8)",
   "assets": {
-    "windows": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.17.0/Project.Succession_0.17.0_x64_en-US.msi",
-    "linux": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.17.0/Project.Succession_0.17.0_amd64.deb",
-    "macos_arm": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.17.0/Project.Succession_0.17.0_aarch64.dmg",
-    "macos_intel": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.17.0/Project.Succession_0.17.0_x64.dmg", "docker_runner": {"url": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.17.0/succession-runner.tar.gz", "arch": "amd64"}
+    "windows": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.18.0/Project.Succession_0.18.0_x64_en-US.msi",
+    "linux": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.18.0/Project.Succession_0.18.0_amd64.deb",
+    "macos_arm": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.18.0/Project.Succession_0.18.0_aarch64.dmg",
+    "macos_intel": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.18.0/Project.Succession_0.18.0_x64.dmg", "docker_runner": {"url": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.18.0/succession-runner.tar.gz", "arch": "amd64"}
   }
 }
