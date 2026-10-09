@@ -1,12 +1,12 @@
 {
-  "version": "0.18.0",
-  "releaseDate": "2026-10-05",
-  "downloadPage": "https://github.com/JeremiasMeister/succession-releases/releases/tag/v0.18.0",
-  "releaseNotes": "Release v0.18.0\n\nNew Features:\n- Dictionary to Key-Value List node (PS-234)\n\nBug Fixes:\n- Write Script matches whole placeholder names in one pass (PS-236)\n- glTF reader handles only triangle-list primitives and no longer panics on malformed files; glTF writer keeps all UV sets, textures and MIME types; Mesh Optimize keeps normals, UVs and materials with the geometry (PS-188)\n- Exposed subgraph parameters no longer disable when a data connection is attached (PS-197)\n\nImprovements:\n- Guide: custom Python nodes continue on an error branch with status success (PS-237)\n- Dependency updates (tauri 2.12, notify 8, quick-xml 0.42, glam 0.33, md5 0.8)",
+  "version": "0.19.0",
+  "releaseDate": "2026-10-09",
+  "downloadPage": "https://github.com/JeremiasMeister/succession-releases/releases/tag/v0.19.0",
+  "releaseNotes": "Release v0.19.0\n\nNew Features:\n- Search your solution by pressing Shift twice: find file names and paths, node labels and types, aliases, parameter values, expressions, and scripts. Jump directly to a file or node, including unsaved edits in the current graph (PS-240).\n- Webhook triggers across workflows can share a port using different paths, while retaining their own authentication, body limits, and response settings (PS-238).\n- Queue trigger events until the previous workflow finishes, including all branches. Interval and webhook triggers offer an optional Queue Events setting; File System Watcher queues events automatically.\n\nImprovements:\n- Update Rust dependencies, both desktop frontends to Vite 8.3.4, and Functions to Google APIs 183 (PS-245).\n- Upgrade HMAC and SHA-256 together, preserving existing signature behavior (PS-241).\n- Refresh Functions lint tooling and update the solution search, trigger queueing, and Docker webhook guides (PS-189).\n\nBehavior Changes:\n- File System Watcher executions now run sequentially instead of overlapping.\n- Webhook paths match literally. Paths containing braces, such as /hooks/{id}, are rejected; use distinct literal paths instead (PS-238).\n- Queued webhook response timeouts include the time spent waiting in the queue. An HTTP timeout does not cancel the queued workflow.",
   "assets": {
-    "windows": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.18.0/Project.Succession_0.18.0_x64_en-US.msi",
-    "linux": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.18.0/Project.Succession_0.18.0_amd64.deb",
-    "macos_arm": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.18.0/Project.Succession_0.18.0_aarch64.dmg",
-    "macos_intel": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.18.0/Project.Succession_0.18.0_x64.dmg", "docker_runner": {"url": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.18.0/succession-runner.tar.gz", "arch": "amd64"}
+    "windows": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.19.0/Project.Succession_0.19.0_x64_en-US.msi",
+    "linux": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.19.0/Project.Succession_0.19.0_amd64.deb",
+    "macos_arm": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.19.0/Project.Succession_0.19.0_aarch64.dmg",
+    "macos_intel": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.19.0/Project.Succession_0.19.0_x64.dmg", "docker_runner": {"url": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.19.0/succession-runner.tar.gz", "arch": "amd64"}
   }
 }
