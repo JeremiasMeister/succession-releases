@@ -60,10 +60,18 @@ action against you, and will work with you to understand and resolve the
 issue quickly. Do not access, modify, or delete data that is not yours;
 if you encounter someone else's data, stop and report the issue.
 
-## Supported Versions
+## Supported Versions and Support Period
 
 Only the latest released version receives security fixes. Please update
 before reporting an issue that may already be fixed.
+
+The support period, how security updates are delivered and how long
+releases stay downloadable are set out in the public
+[Security Update and Support Policy](https://www.cg-jm.com/security-policy).
+In short: Project Succession has been supported since its first public
+release in April 2026, the support period ends no earlier than
+30 April 2031, and security fixes ship free of charge as signed patch
+releases.
 
 ## Disclosure
 
