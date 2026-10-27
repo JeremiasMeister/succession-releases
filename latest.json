@@ -1,12 +1,12 @@
 {
-  "version": "0.19.1",
-  "releaseDate": "2026-10-26",
-  "downloadPage": "https://github.com/JeremiasMeister/succession-releases/releases/tag/v0.19.1",
-  "releaseNotes": "Release v0.19.1\n\nBug Fixes:\n- Refresh graph-scoped alias references and suggestions; align alias scope help (PS-253, PS-231)\n- Prevent license endpoint memory exhaustion and retry feature checks; focus license recovery on the service failure (PS-252)\n- Accept JSON array scripts in Provide List (PS-251)\n- Wait for completed download writes (PS-242)\n- Redact node failure diagnostics before UI and logs (PS-171)\n- Handle missing keyring entries as absence (PS-224)\n- Complete node parameter and output metadata (PS-207)\n- Declare enterprise admin esbuild minifier (PS-246)\n- Anonymise removed_by_admin on account deletion (PS-261)\n\nImprovements:\n- Dependency updates: tokio, dirs 7, glam 0.34, zip 9, tauri plugins, npm trees (PS-260)\n- Docs: AI-node oversight note in deployment guide, public support period (PS-262)\n- Docs: clarified list parsing and alias scope in bundled help (PS-251, PS-253)",
+  "version": "0.20.0",
+  "releaseDate": "2026-10-27",
+  "downloadPage": "https://github.com/JeremiasMeister/succession-releases/releases/tag/v0.20.0",
+  "releaseNotes": "Release v0.20.0\n\nNew Features:\n- Add solution tools view and graph parameter deployment\n- Add combinatorics data nodes (PS-264)\n\nBug Fixes:\n- Preserve solution tool state and compatibility\n- Organize large solution tool selectors\n- Align tool view navigation and styling with the editor\n- Harden license recovery ordering and cancellation (PS-265)\n- Recover paid feature access after license failures (PS-265)\n- Refresh combinatorics documentation (PS-264)\n- Remove vulnerable optional S3 and mail dependencies (PS-263)\n\nImprovements:\n- Dependency updates: firebase 13.1.0, meshopt 0.7, httpmock 0.9, vite 8.3.5, esbuild 0.28.2",
   "assets": {
-    "windows": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.19.1/Project.Succession_0.19.1_x64_en-US.msi",
-    "linux": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.19.1/Project.Succession_0.19.1_amd64.deb",
-    "macos_arm": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.19.1/Project.Succession_0.19.1_aarch64.dmg",
-    "macos_intel": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.19.1/Project.Succession_0.19.1_x64.dmg", "docker_runner": {"url": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.19.1/succession-runner.tar.gz", "arch": "amd64"}
+    "windows": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.20.0/Project.Succession_0.20.0_x64_en-US.msi",
+    "linux": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.20.0/Project.Succession_0.20.0_amd64.deb",
+    "macos_arm": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.20.0/Project.Succession_0.20.0_aarch64.dmg",
+    "macos_intel": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.20.0/Project.Succession_0.20.0_x64.dmg", "docker_runner": {"url": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.20.0/succession-runner.tar.gz", "arch": "amd64"}
   }
 }
