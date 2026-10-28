@@ -1,12 +1,12 @@
 {
-  "version": "0.20.0",
-  "releaseDate": "2026-10-27",
-  "downloadPage": "https://github.com/JeremiasMeister/succession-releases/releases/tag/v0.20.0",
-  "releaseNotes": "Release v0.20.0\n\nNew Features:\n- Add solution tools view and graph parameter deployment\n- Add combinatorics data nodes (PS-264)\n\nBug Fixes:\n- Preserve solution tool state and compatibility\n- Organize large solution tool selectors\n- Align tool view navigation and styling with the editor\n- Harden license recovery ordering and cancellation (PS-265)\n- Recover paid feature access after license failures (PS-265)\n- Refresh combinatorics documentation (PS-264)\n- Remove vulnerable optional S3 and mail dependencies (PS-263)\n\nImprovements:\n- Dependency updates: firebase 13.1.0, meshopt 0.7, httpmock 0.9, vite 8.3.5, esbuild 0.28.2",
+  "version": "0.20.1",
+  "releaseDate": "2026-10-28",
+  "downloadPage": "https://github.com/JeremiasMeister/succession-releases/releases/tag/v0.20.1",
+  "releaseNotes": "Release v0.20.1\n\nBug Fixes:\n- Stabilize graph JSON serialization: one shared serializer, sorted keys, stable node/edge order (PS-267)\n- Track real node movement instead of click/drag-end events so selection no longer dirties an unchanged graph (PS-267)\n- Preserve graph dirty state across async parameter, expression and expose/unexpose edits (PS-267)\n- Keep unchanged file and folder picker defaults clean; cancelled dialogs no longer dirty the graph (PS-267)\n- Track confirmed backend data across overlapping Apply/Save edits so reversions are not lost (PS-267)\n- Preserve typed reversions in text, numeric and path fields while earlier writes are pending (PS-267)\n- Exposed enum parameters in Tools use the shared styled dropdown with keyboard navigation (PS-267)\n\nImprovements:\n- Guide updates: menu reference, tools, working with nodes",
   "assets": {
-    "windows": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.20.0/Project.Succession_0.20.0_x64_en-US.msi",
-    "linux": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.20.0/Project.Succession_0.20.0_amd64.deb",
-    "macos_arm": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.20.0/Project.Succession_0.20.0_aarch64.dmg",
-    "macos_intel": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.20.0/Project.Succession_0.20.0_x64.dmg", "docker_runner": {"url": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.20.0/succession-runner.tar.gz", "arch": "amd64"}
+    "windows": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.20.1/Project.Succession_0.20.1_x64_en-US.msi",
+    "linux": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.20.1/Project.Succession_0.20.1_amd64.deb",
+    "macos_arm": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.20.1/Project.Succession_0.20.1_aarch64.dmg",
+    "macos_intel": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.20.1/Project.Succession_0.20.1_x64.dmg", "docker_runner": {"url": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.20.1/succession-runner.tar.gz", "arch": "amd64"}
   }
 }
