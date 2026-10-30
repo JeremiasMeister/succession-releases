@@ -1,12 +1,12 @@
 {
-  "version": "0.20.1",
-  "releaseDate": "2026-10-28",
-  "downloadPage": "https://github.com/JeremiasMeister/succession-releases/releases/tag/v0.20.1",
-  "releaseNotes": "Release v0.20.1\n\nBug Fixes:\n- Stabilize graph JSON serialization: one shared serializer, sorted keys, stable node/edge order (PS-267)\n- Track real node movement instead of click/drag-end events so selection no longer dirties an unchanged graph (PS-267)\n- Preserve graph dirty state across async parameter, expression and expose/unexpose edits (PS-267)\n- Keep unchanged file and folder picker defaults clean; cancelled dialogs no longer dirty the graph (PS-267)\n- Track confirmed backend data across overlapping Apply/Save edits so reversions are not lost (PS-267)\n- Preserve typed reversions in text, numeric and path fields while earlier writes are pending (PS-267)\n- Exposed enum parameters in Tools use the shared styled dropdown with keyboard navigation (PS-267)\n\nImprovements:\n- Guide updates: menu reference, tools, working with nodes",
+  "version": "0.21.0",
+  "releaseDate": "2026-10-30",
+  "downloadPage": "https://github.com/JeremiasMeister/succession-releases/releases/tag/v0.21.0",
+  "releaseNotes": "Release v0.21.0\n\nNew Features:\n- Workflow debugging: Runs window (always on top) with recorded runs, per-node attempts and retries, captured inputs, resolved parameters, outputs and errors, \"Did not execute\" explanations, and Show node in graph (PS-269)\n- Failed nodes keep their failure details until the node succeeds or the failure is dismissed (PS-269)\n- Menu: Clear debugging data removes recorded runs, captured values and retained Console logs (PS-269)\n- Console: session log history with automatic reconnect, run and graph filters, search, node links, and Pause auto-scroll\n- Service tray menu with service status, Restart Service and Quit Service (PS-270)\n\nBug Fixes:\n- Throw Error messages now appear in the Console\n- Frontend launches and service connections recover after a service restart (PS-270)\n- Window requests wait until desktop startup completes (PS-270)\n- macOS: Git libraries are bundled so the app launches without Homebrew (PS-268)",
   "assets": {
-    "windows": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.20.1/Project.Succession_0.20.1_x64_en-US.msi",
-    "linux": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.20.1/Project.Succession_0.20.1_amd64.deb",
-    "macos_arm": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.20.1/Project.Succession_0.20.1_aarch64.dmg",
-    "macos_intel": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.20.1/Project.Succession_0.20.1_x64.dmg", "docker_runner": {"url": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.20.1/succession-runner.tar.gz", "arch": "amd64"}
+    "windows": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.21.0/Project.Succession_0.21.0_x64_en-US.msi",
+    "linux": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.21.0/Project.Succession_0.21.0_amd64.deb",
+    "macos_arm": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.21.0/Project.Succession_0.21.0_aarch64.dmg",
+    "macos_intel": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.21.0/Project.Succession_0.21.0_x64.dmg", "docker_runner": {"url": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.21.0/succession-runner.tar.gz", "arch": "amd64"}
   }
 }
