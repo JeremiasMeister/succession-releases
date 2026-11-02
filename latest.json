@@ -1,12 +1,12 @@
 {
-  "version": "0.21.0",
-  "releaseDate": "2026-10-30",
-  "downloadPage": "https://github.com/JeremiasMeister/succession-releases/releases/tag/v0.21.0",
-  "releaseNotes": "Release v0.21.0\n\nNew Features:\n- Workflow debugging: Runs window (always on top) with recorded runs, per-node attempts and retries, captured inputs, resolved parameters, outputs and errors, \"Did not execute\" explanations, and Show node in graph (PS-269)\n- Failed nodes keep their failure details until the node succeeds or the failure is dismissed (PS-269)\n- Menu: Clear debugging data removes recorded runs, captured values and retained Console logs (PS-269)\n- Console: session log history with automatic reconnect, run and graph filters, search, node links, and Pause auto-scroll\n- Service tray menu with service status, Restart Service and Quit Service (PS-270)\n\nBug Fixes:\n- Throw Error messages now appear in the Console\n- Frontend launches and service connections recover after a service restart (PS-270)\n- Window requests wait until desktop startup completes (PS-270)\n- macOS: Git libraries are bundled so the app launches without Homebrew (PS-268)",
+  "version": "0.22.0",
+  "releaseDate": "2026-11-02",
+  "downloadPage": "https://github.com/JeremiasMeister/succession-releases/releases/tag/v0.22.0",
+  "releaseNotes": "Release v0.22.0\n\nNew Features:\n- Improve the Runs layout and add node inspection from the graph editor (PS-271).\n\nBug Fixes:\n- Restore inspection targets for repeated node and subgraph executions (PS-271).\n- Fix composed Windows paths across filesystem nodes, subgraphs, watched folders, and MCP, including UNC shares and paths that require extended prefixes (PS-272).\n- Preserve literal Windows filenames when formatting paths for graphs (PS-272).\n- Match Windows path aliases in solutions and the file tree, including saving unsaved graph edits before solution deployment (PS-272).\n\nImprovements:\n- Document filesystem path composition and the updated Runs interface (PS-271, PS-272).",
   "assets": {
-    "windows": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.21.0/Project.Succession_0.21.0_x64_en-US.msi",
-    "linux": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.21.0/Project.Succession_0.21.0_amd64.deb",
-    "macos_arm": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.21.0/Project.Succession_0.21.0_aarch64.dmg",
-    "macos_intel": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.21.0/Project.Succession_0.21.0_x64.dmg", "docker_runner": {"url": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.21.0/succession-runner.tar.gz", "arch": "amd64"}
+    "windows": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.22.0/Project.Succession_0.22.0_x64_en-US.msi",
+    "linux": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.22.0/Project.Succession_0.22.0_amd64.deb",
+    "macos_arm": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.22.0/Project.Succession_0.22.0_aarch64.dmg",
+    "macos_intel": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.22.0/Project.Succession_0.22.0_x64.dmg", "docker_runner": {"url": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.22.0/succession-runner.tar.gz", "arch": "amd64"}
   }
 }
