@@ -1,12 +1,12 @@
 {
-  "version": "0.22.0",
-  "releaseDate": "2026-11-02",
-  "downloadPage": "https://github.com/JeremiasMeister/succession-releases/releases/tag/v0.22.0",
-  "releaseNotes": "Release v0.22.0\n\nNew Features:\n- Improve the Runs layout and add node inspection from the graph editor (PS-271).\n\nBug Fixes:\n- Restore inspection targets for repeated node and subgraph executions (PS-271).\n- Fix composed Windows paths across filesystem nodes, subgraphs, watched folders, and MCP, including UNC shares and paths that require extended prefixes (PS-272).\n- Preserve literal Windows filenames when formatting paths for graphs (PS-272).\n- Match Windows path aliases in solutions and the file tree, including saving unsaved graph edits before solution deployment (PS-272).\n\nImprovements:\n- Document filesystem path composition and the updated Runs interface (PS-271, PS-272).",
+  "version": "0.23.1",
+  "releaseDate": "2026-11-10",
+  "downloadPage": "https://github.com/JeremiasMeister/succession-releases/releases/tag/v0.23.1",
+  "releaseNotes": "Release v0.23.1\n\nNew Features:\n- Stop Graph and Stop Run action nodes\n- Deploy Graph action\n- Workspace lock and run timeout per graph: each graph can wait its turn for a workspace-wide lock and be stopped once it runs too long, with lock/timeout/drop toggles in the graph right-click menu and file tree; the dashboard shows runs waiting for the lock and runs that timed out (PS-273)\n- Docker runner: a run that times out now fails the one-shot container (PS-273)\n- Explorer: rename and delete solution entries, with reference rewrites and system trash (PS-273)\n\nBug Fixes:\n- Stop actions release stopped triggers and keep execution diagnostics\n- Solution JSON serialization is stable\n- Explorer: editor saves are serialized with rename/delete; refusal and delete messages are accurate; timeout field takes whole numbers only; entries go to the trash through the file manager (PS-273)\n- Delete now warns when closing the deleted file's tab would throw away canvas edits\n- Left sidebar no longer scrolls sideways; tabs fit its width\n\nImprovements:\n- Desktop, functions and Rust dependencies refreshed and consolidated; GTK and editor-dialog held at compatible versions (PS-277)",
   "assets": {
-    "windows": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.22.0/Project.Succession_0.22.0_x64_en-US.msi",
-    "linux": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.22.0/Project.Succession_0.22.0_amd64.deb",
-    "macos_arm": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.22.0/Project.Succession_0.22.0_aarch64.dmg",
-    "macos_intel": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.22.0/Project.Succession_0.22.0_x64.dmg", "docker_runner": {"url": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.22.0/succession-runner.tar.gz", "arch": "amd64"}
+    "windows": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.23.1/Project.Succession_0.23.1_x64_en-US.msi",
+    "linux": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.23.1/Project.Succession_0.23.1_amd64.deb",
+    "macos_arm": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.23.1/Project.Succession_0.23.1_aarch64.dmg",
+    "macos_intel": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.23.1/Project.Succession_0.23.1_x64.dmg", "docker_runner": {"url": "https://github.com/JeremiasMeister/succession-releases/releases/download/v0.23.1/succession-runner.tar.gz", "arch": "amd64"}
   }
 }
